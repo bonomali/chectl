@@ -1,19 +1,19 @@
 helm:
   - cheVersion: '7.10.0':
-    requiredChectlVeriosn:
+    minimalChectlVeriosn:
       stable: 7.10.1
       nightly: 20200217-next.1234abc
 operator:
   - cheVersion: '7.28.2'
-    requiredChectlVeriosn:
+    minimalChectlVeriosn:
       stable: 7.28.2
       nightly: 20211115-next.abcd123
   - cheVersion: '7.13.0'
-    requiredChectlVeriosn:
+    minimalChectlVeriosn:
       stable: 7.13.0
       nightly: 20200702-next.edf123a
 olm:
   - cheVersion: '7.17.0':
-    requiredChectlVeriosn:
+    minimalChectlVeriosn:
       stable: '7.17.0'
       nightly: 20200506-next.9830ea8
