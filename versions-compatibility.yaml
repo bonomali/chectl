@@ -1,16 +1,19 @@
 helm:
-  '7.10.0':
-    stable: 7.10.1
-    nightly: 20200217-next.1234abc
-operator:                               # <- installer type
-  '7.28.2':                             # <- Eclipse Che version to deploy
-    stable: 7.28.2                      # <- minimal stable version of chectl that is required to install 7.28.2 version of Eclipse Che
-                                        #    basically it means that all versions from 7.13.0 to 7.28.1 can be deployed with chectl at least 7.13.0 version
-    nightly: 20211115-next.abcd123      # <- minimal nightly version
-  '7.13.0':
-    stable: 7.13.0
-    nightly: 20200702-next.edf123a
+  - cheVersion: '7.10.0':
+    requiredChectlVeriosn:
+      stable: 7.10.1
+      nightly: 20200217-next.1234abc
+operator:
+  - cheVersion: '7.28.2'
+    requiredChectlVeriosn:
+      stable: 7.28.2
+      nightly: 20211115-next.abcd123
+  - cheVersion: '7.13.0'
+    requiredChectlVeriosn:
+      stable: 7.13.0
+      nightly: 20200702-next.edf123a
 olm:
-  '7.17.0':
-    stable: '7.17.0'
-    nightly: 20200506-next.9830ea8
+  - cheVersion: '7.17.0':
+    requiredChectlVeriosn:
+      stable: '7.17.0'
+      nightly: 20200506-next.9830ea8
