@@ -1,3 +1,6 @@
+# Some
+# comment here
+
 helm:
   - cheVersion: '7.10.0':
     minimalChectlVeriosn:
