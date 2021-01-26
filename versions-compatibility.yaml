@@ -1,8 +1,9 @@
 # Some
 # comment here
+
 v1:
   helm:
-    - cheVersion: '7.10.0':
+    - cheVersion: '7.10.0'
       minimalChectlVeriosn:
         stable: '7.10.1'
         nightly: 20200217-next.1234abc
@@ -16,7 +17,7 @@ v1:
         stable: '7.13.0'
         nightly: 20200702-next.edf123a
   olm:
-    - cheVersion: '7.17.0':
+    - cheVersion: '7.17.0'
       minimalChectlVeriosn:
         stable: '7.17.0'
         nightly: 20200506-next.9830ea8
